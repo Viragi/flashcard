@@ -11,28 +11,36 @@
 </head>
 
 <body>
+  <div class="body">
   <div class="formcontainer">
-    <form action="#">
+    <h1>Try Me !!</h1>
+    <form action=" ">
+      <div class="input">
+        <label for="front">FRONT TEXT :</label>
+        <input type="text" name="front" class="front" id="front">
+      
+      <span>
+        <label for="back">BACK TEXT : </label>
+        <input type="text" name="back"  class="back" id="back">
+      </span>
+    </div>
       <div>
-        <label for="fronttext">FRONT TEXT</label>
-        <input type="text" name="fronttext" id="fronttext">
-      </div>
-      <div>
-        <label for="backtext">BACK TEXT</label>
-        <input type="text" name="backtext" id="backtext">
-      </div>
-      <div>
-        <button name="print">Print</button>
+        <button type="submit" name="print">Flip Me!</button>
     </div>
     </form>
-    <div class="cardcontainer">
-
+    <div class="cardcontainer scene">
+      <div class="card">
+      <!-- <div class="fronttext"> front-text</div>
+      <div class="backtext">Back-text</div> -->
+    </div>
     </div>
   </div>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</div>
 </body>
 
 </html>
